@@ -1,8 +1,11 @@
 # Hi, I'm Reinhard
 
-I build cryptographic tools in C# and Python — from custom stream ciphers to AES implementations and statistical test suites. Everything is open source (MIT), documented with honest threat models, and validated against the original NIST SP 800-22 specification.
+I build open-source tools with a focus on transparency and honest documentation —
+cryptography in C# and Python, and embedded / IoT projects on Arduino. Everything is
+MIT-licensed, with documented threat models and verification against the original
+specifications (e.g. NIST SP 800-22).
 
-## Projects
+## Cryptography
 
 | Project | Language | What it does |
 |---------|----------|-------------|
@@ -11,4 +14,12 @@ I build cryptographic tools in C# and Python — from custom stream ciphers to A
 | [py-nist-sp800-22](https://github.com/ReinhardJesolowitz24/py-nist-sp800-22) | Python | Complete NIST SP 800-22 statistical randomness test suite. Corrected against the original document. |
 | [encryption-tools](https://github.com/ReinhardJesolowitz24/encryption-tools) | Python | S-Box generator (all 30 GF(2^8) polynomials), bias analysis, and cipher testing tools. |
 
-These four projects form a toolkit: build a cipher, test it against AES, and validate both with the same NIST suite.
+These four form a toolkit: build a cipher, test it against AES, and validate both with the same NIST suite.
+
+## Hardware / Energy
+
+| Project | Language | What it does |
+|---------|----------|-------------|
+| [gigar1-shelly-zendure-monitor](https://github.com/ReinhardJesolowitz24/gigar1-shelly-zendure-monitor) | C++ / Arduino | Independent Arduino GIGA R1 monitor & watchdog for a Shelly Pro 3EM + Zendure SolarFlow home battery — live grid/phase data, daily kWh balance, and red/yellow alarms (grid-dumping, deep discharge, BMS) with self-supervision. |
+
+A cheap, independent board cross-checking a more complex device — the *checker* kept separate from the *doer*.
