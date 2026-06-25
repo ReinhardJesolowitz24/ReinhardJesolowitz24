@@ -21,5 +21,6 @@ These four form a toolkit: build a cipher, test it against AES, and validate bot
 | Project | Language | What it does |
 |---------|----------|-------------|
 | [gigar1-shelly-zendure-monitor](https://github.com/ReinhardJesolowitz24/gigar1-shelly-zendure-monitor) | C++ / Arduino | Independent Arduino GIGA R1 monitor & watchdog for a Shelly Pro 3EM + Zendure SolarFlow home battery — live grid/phase data, daily kWh balance, and red/yellow alarms (grid-dumping, deep discharge, BMS) with self-supervision. |
+| [esp32-shelly-zendure-monitor](https://github.com/ReinhardJesolowitz24/esp32-shelly-zendure-monitor) | C++ / Arduino | Budget ESP32-S3 port of the GIGA monitor — same Shelly Pro 3EM + Zendure SolarFlow watchdog (live grid/phase data, daily kWh balance, red/yellow alarms) on a ~1/3-cost ELECROW 7″ display (LovyanGFX RGB panel). |
 
 A cheap, independent board cross-checking a more complex device — the *checker* kept separate from the *doer*.
